@@ -13,7 +13,9 @@ Diagnose the fulfillment process to identify the cause of delayed order completi
 
 ## Action
 I received unstructured data from the client and imported it into Power BI. Using Power Query Editor, I transformed the data to analyze the process (with confidentiality maintained as the client did not authorize public sharing).
-![](Procurement_Step_Tracker.png)
+
+![](report.png)
+
 ## Result
 Bottlenecks were identified, and the following insights were gathered
 
