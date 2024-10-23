@@ -20,6 +20,8 @@ _Write Dax_
 ## Result:
 Bottlenecks were identified, and the following insights were gathered:
 
+_Insert the report Picuture_
+
 ### Insights
 ### Key Metrics:
 - Average Days from Quotation to Payment: 14 days
