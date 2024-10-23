@@ -8,12 +8,12 @@ _The project demonstrates both the analytical and technical skills required to d
 ## Situation
 Orders were coming in and deliveries were made, but customers consistently complained about long delivery times, which negatively impacted the business
 
-##Task
+## Task
 Diagnose the fulfillment process to identify the cause of delayed order completion.
 
 ## Action
 I received unstructured data from the client and imported it into Power BI. Using Power Query Editor, I transformed the data to analyze the process (with confidentiality maintained as the client did not authorize public sharing).
-
+![](Applied_Step2.png)
 ## Result
 Bottlenecks were identified, and the following insights were gathered
 
