@@ -16,7 +16,13 @@ I received unstructured data from the client and imported it into Power BI. Usin
 
 _Insert Pictures of the appllied Steps_
 _Write Dax_
-   ![](applied_stepi.png)                                                                   ![](applied_stepii.png)
+
+----------------------------|-------------------------------|-------------------------------|-------------------------------|
+
+ ![](applied_stepi.png)     |    ![](applied_stepii.png)    |  ![](applied_stepiii.png)     |  ![](applied_stepiv.png)      |
+                            
+
+
 ## Result:
 Bottlenecks were identified, and the following insights were gathered:
 
