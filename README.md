@@ -1,7 +1,7 @@
 # Diagnostic Analysis 
 
 ## Introduction
-This project focuses on a B2B e-commerce startup, where the goal is to identify and address bottlenecks in the fulfillment process. While the raw data remains confidential, the findings, insights, and recommendations will be shared here. 
+This project focused on a B2B e-commerce startup, where the goal is to identify and address bottlenecks in the fulfillment process. While the raw data remains confidential, the findings, insights, and recommendations will be shared here. 
 
 _The project demonstrates both the analytical and technical skills required to diagnose and solve business challenges using data, showcasing the power and capabilities of Microsoft Power BI in driving actionable insights_
 
@@ -26,13 +26,13 @@ I received unstructured data from the client and imported it into Power BI. Usin
 
 _**DAX LANGUAGE :**_
 
-**Average Lead time** `= AVERAGE('Order Tracker (Time Inteligence)'[Hours])`
+- **Average Lead time** `= AVERAGE('Order Tracker (Time Inteligence)'[Hours])`
 
-**Average Order Placed to final delivery timestamp** `= CALCULATE(AVERAGE('Order Tracker (Time Inteligence)'[Hours]),'Order Tracker (Time Inteligence)'[Lead process] = "Order Placed to final delivery timestamp")`
+- **Average Order Placed to final delivery timestamp** `= CALCULATE(AVERAGE('Order Tracker (Time Inteligence)'[Hours]),'Order Tracker (Time Inteligence)'[Lead process] = "Order Placed to final delivery timestamp")`
 
-**Average Lead Time(Days)** `= DIVIDE([Average Order Placed to final delivery timestamp],24)`
+- **Average Lead Time(Days)** `= DIVIDE([Average Order Placed to final delivery timestamp],24)`
 
-**Average Quotation to payment (Days)** = 
+- **Average Quotation to payment (Days)** = 
 
 IF(
    
