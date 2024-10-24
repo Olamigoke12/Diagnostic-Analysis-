@@ -27,7 +27,7 @@ Bottlenecks were identified, and the following insights were gathered:
 
 ![](report.png)
 
-### Insights
+## Insights
 ### Key Metrics:
 - Average Days from Quotation to Payment: 14 days
 - Average Lead Time: 20.8 days
@@ -39,11 +39,17 @@ Lead Time Breakdown:
 - Inventory to Order: 21.7 hours
 - Packing to Delivery: 3.4 hours
 - Order to Quotation Duration: 2.1 hours
-### Key Observations:
+## Key Observations:
 1.	Lead Time Stagnation: The lead time of 20.8 days remains unchanged, mainly due to delays in:
 - Order to Delivery (498.6 hours) and
 - Quotation to Payment (326.5 hours).
 2.	Minor Delays: Steps like Inventory to Order (21.7 hours) and Payment to Packing (67.6 hours) are relatively efficient
+
+## Recommendations:
+- Investigate Delivery Delays: _Review the logistics and vendor timelines to address final delivery delays_.
+- Streamline Payment Processes: _Automate approval workflows to shorten the quotation-to-payment cycle_.
+- Monitor Real-Time Performance: _Set up alerts for key process steps that exceed threshold times_.
+- Review KPIs Regularly: _Continuously adjust workflows based on performance data to drive improvements_.
 
 
 
