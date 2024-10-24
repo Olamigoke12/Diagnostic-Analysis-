@@ -14,14 +14,16 @@ Orders were coming in and deliveries were made, but customers consistently compl
 ## Action:
 I received unstructured data from the client and imported it into Power BI. Using Power Query Editor, I transformed the data to analyze the process (with confidentiality maintained as the client did not authorize public sharing).
 
-_Insert Pictures of the appllied Steps_
-_Write Dax_
+**_To really show how dirty and unstructured the data set is, these are the applied steps using Power Query Editor_** 
+
 
 ----------------------------|-------------------------------|-------------------------------|-------------------------------|
 
  ![](applied_stepi.png)     |    ![](applied_stepii.png)    |  ![](applied_stepiii.png)     |  ![](applied_stepiv.png)      |
                             
 
+
+_Write Dax_
 ## Result:
 Bottlenecks were identified, and the following insights were gathered:
 
