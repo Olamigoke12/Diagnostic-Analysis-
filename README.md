@@ -1,4 +1,4 @@
-# Diagnostic Analysis 
+# Diagnostic Analysis Project
 
 ## Introduction
 This project focused on a B2B e-commerce startup, where the goal is to identify and address bottlenecks in the fulfillment process. While the raw data remains confidential, the findings, insights, and recommendations will be shared here. 
