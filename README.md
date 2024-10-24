@@ -22,11 +22,10 @@ _Write Dax_
  ![](applied_stepi.png)     |    ![](applied_stepii.png)    |  ![](applied_stepiii.png)     |  ![](applied_stepiv.png)      |
                             
 
-
 ## Result:
 Bottlenecks were identified, and the following insights were gathered:
 
-_Insert the report Picuture_
+![](report.png)
 
 ### Insights
 ### Key Metrics:
