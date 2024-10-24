@@ -23,7 +23,30 @@ I received unstructured data from the client and imported it into Power BI. Usin
                             
 
 
-_Write Dax_
+
+_**DAX LANGUAGE :**_
+
+**Average Lead time** `= AVERAGE('Order Tracker (Time Inteligence)'[Hours])`
+
+**Average Order Placed to final delivery timestamp** `= CALCULATE(AVERAGE('Order Tracker (Time Inteligence)'[Hours]),'Order Tracker (Time Inteligence)'[Lead process] = "Order Placed to final delivery timestamp")`
+
+**Average Lead Time(Days)** `= DIVIDE([Average Order Placed to final delivery timestamp],24)`
+
+**Average Quotation to payment (Days)** = 
+
+IF(
+   
+    ISBLANK(DIVIDE([Average Quotation to payment (Hours)], 24)),
+  
+    0,
+   
+    DIVIDE([Average Quotation to payment (Hours)], 24)
+
+)
+
+
+
+
 ## Result:
 Bottlenecks were identified, and the following insights were gathered:
 
